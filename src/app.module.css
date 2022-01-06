@@ -1,0 +1,10 @@
+.title{
+    text-align: center;
+    font-size:3rem;
+    font-family: 'Roboto Slab', serif;
+    color:rgb(202, 187, 167)
+}
+
+.title:hover{
+    color:rgb(245, 237, 227)
+}

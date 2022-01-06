@@ -1,0 +1,16 @@
+.movieGrid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 270px); 
+    gap:150px 20px;
+    padding: 20px;
+    justify-content: center
+}
+
+@media (max-width: 580px){
+    .movieGrid{
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+        gap:70px
+    }
+}
